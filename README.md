@@ -61,6 +61,7 @@ jupyter notebook Titanic_ML_from_Disaster.ipynb
 2. Run the notebook cells to:
    - Download and load the Titanic datasets
    - Perform exploratory data analysis (EDA)
+   - Visualize some key data relations
    - Build a RandomForestClassifier model
    - Evaluate the model
    - Generate a submission file
@@ -81,6 +82,7 @@ titanic-ml-from-disaster/
 After running the notebook, a submission.csv file will be generated. This file contains the predictions for the test dataset, formatted for submission to the Kaggle competition. The file includes the following columns:
 - PassengerId: ID of the passenger
 - Survived: Prediction (1 for survived, 0 for deceased)
+The score reached in the competition is around 0,64.
 
 ## License
 This project is licensed under the MIT License.
