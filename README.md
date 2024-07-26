@@ -3,9 +3,9 @@
 ## Overview
 This repository contains a comprehensive notebook for the Kaggle competition Titanic: Machine Learning from Disaster. The notebook includes steps to download the datasets, perform exploratory data analysis (EDA), build a machine learning model using RandomForestClassifier, and create a submission file for the competition.
 
-Name: Kevin Juan Román Rafaele
-LinkedIn: https://www.linkedin.com/in/kevin-juan-r-997530117/
-Email: mrredsky.2095@gmail.com
+- Name: Kevin Juan Román Rafaele
+- LinkedIn: https://www.linkedin.com/in/kevin-juan-r-997530117/
+- Email: mrredsky.2095@gmail.com
 
 
 ## Table of Contents
