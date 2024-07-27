@@ -15,8 +15,9 @@ This repository contains a comprehensive notebook for the Kaggle competition Tit
 4. Installation
 5. Usage
 6. Project Structure
-7. Results
-8. License
+7. Visualization
+8. Results
+9. License
 
 ## Dataset
 The Titanic dataset is a classic dataset used in data science and machine learning. It provides information about the passengers aboard the Titanic and whether they survived or not. The datasets used in this project can be found at the following URL:
@@ -78,11 +79,19 @@ titanic-ml-from-disaster/
 └── requirements.txt                # Python libraries required
 ```
 
+## Visualization
+- Age distribution & Survival rate by gender:
+  ![Age distribution & Survival rate by gender](https://github.com/PoppinElo/Titanic-ML-v1/blob/main/images/age_and%20sex_dist.png)
+
+- Feature importances:
+  ![Feature importances](https://github.com/PoppinElo/Titanic-ML-v1/blob/main/images/feature_importance.png)
+
 ## Results
-After running the notebook, a submission.csv file will be generated. This file contains the predictions for the test dataset, formatted for submission to the Kaggle competition. The file includes the following columns:
-- PassengerId: ID of the passenger
-- Survived: Prediction (1 for survived, 0 for deceased)
-The score reached in the competition is around 0,64.
+1. From the data visualization, it can be hypothesized the great importance of sex and age in determining life priority (the code of conduct "women and children first")
+2. After running the notebook, a submission.csv file will be generated. This file contains the predictions for the test dataset, formatted for submission to the Kaggle competition. The file includes the following columns:
+   - PassengerId: ID of the passenger
+   - Survived: Prediction (1 for survived, 0 for deceased)
+   - The score reached in the competition is around 0,64.
 
 ## License
 This project is licensed under the MIT License.
